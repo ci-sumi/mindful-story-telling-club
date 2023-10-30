@@ -1,0 +1,56 @@
+/* Reset default styles and set font family */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Shadows into Light", sans-serif;
+}
+/*  Update header styles */
+.header {
+
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    background-image: url(/assets/images/heroimage.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+/* navigation menu styles */
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+/* navigation links styles */
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+/*  styles for anchor elemnts */
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Add hover effect to navigation links */
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f4433f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+/* Enhance navigation link hover effect */
+.nav-links ul li:hover::after {
+    width: 100%;
+}
