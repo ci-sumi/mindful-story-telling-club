@@ -54,3 +54,49 @@ nav {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+/* Text area */
+/* styling for .text-box class */
+.text-box{
+    border: 1px solid rgb(8, 212, 63);
+    padding: 8px;
+    background-color: rgb(240, 240, 227);
+    
+}
+/* Style the h1 element for the header */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #210ce6;
+    font-family: "Shadows into Light", sans-serif;
+}
+/* consistent text styles to paragraph elements */
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-family: "Shadows into Light", sans-serif;
+}
+/* styles for hero button */
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: justify;
+    color: rgba(68, 20, 199, 0.881);
+    border: 0px solid rgb(7, 7, 7);
+    padding: 12px 12px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/* hover effect to hero button */
+.hero-btn:hover {
+    border: 1px solid #f4433f;
+    background: #f4433f;
+    transition: 1s;
+
+}
+/* Center-align text in elements with .centered-paragraph class */
+.centered-paragraph {
+    text-align: center;
+}
