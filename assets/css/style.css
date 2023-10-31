@@ -222,3 +222,43 @@ Add margins to images */
     bottom: 49%;
     opacity: 1;
 }
+/* testimonials */
+/* Center-align and set the width of the testimonials section, with a top padding */
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+/* Style for individual testimonial columns */
+.testimonials-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(240, 240, 227);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    border: 2px solid green;
+
+}
+/* Style for the testimonial avatar images */
+.testimonials-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+
+}
+/* Reset padding for paragraph elements within testimonial columns */
+.testimonials-col p {
+    padding: 0;
+
+}
+/* Style for the testimonial heading (name) */
+
+.testimonials-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
