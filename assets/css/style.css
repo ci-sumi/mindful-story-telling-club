@@ -169,12 +169,14 @@ h3 {
     overflow: hidden;
 
 }
+
 /* Set the top and bottom margins to 0,
 and horizontally center elements with the class .quote-center */
 .quote-center {
     text-align: center;
     margin: 0 auto;
 }
+
 /* Set image width and height,Display images as block-level elements and maintain aspect ratio
 Add margins to images */
 .mentor-col img {
@@ -185,6 +187,7 @@ Add margins to images */
     margin-right: 10px;
     border: 2px solid green;
 }
+
 /* Set a transparent background for .layer elements, full height and width,position and transition for smooth effects  */
 
 .layer {
@@ -197,6 +200,7 @@ Add margins to images */
     transition: 0.5s;
 
 }
+
 /* Set the width of h3 elements,font weight,text color,font size,position,opacity and transition */
 
 .layer h3 {
@@ -212,8 +216,9 @@ Add margins to images */
     transition: 0.5s;
 
 }
+
 /* When .layer elements are hovered over, adjust the position of h3 elements */
 .layer:hover h3 {
     bottom: 49%;
     opacity: 1;
-} 
+}
