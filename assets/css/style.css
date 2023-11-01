@@ -388,3 +388,24 @@ Add margins to images */
     height: 100%;
     border: 2px solid green;
 }
+/* Styling for the .divider class */
+.divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  /* Styling for the pseudo-elements (::before and ::after) inside .divider */
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: 3px;
+    background-color: rgb(183, 197, 186);
+    margin: 5px;
+  }
+  /* Styling for the #bottomline section */
+  #bottomline{
+        text-align: center;
+        padding: 10px;
+      }
