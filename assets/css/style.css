@@ -4,6 +4,7 @@
   padding: 0;
   font-family: "Shadows into Light", sans-serif;
 }
+
 /*  Update header styles */
 .header {
   min-height: 100vh;
@@ -15,6 +16,7 @@
   background-size: cover;
   position: relative;
 }
+
 /* navigation menu styles */
 nav {
   display: flex;
@@ -22,10 +24,12 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-links {
   flex: 1;
   text-align: right;
 }
+
 /* navigation links styles */
 .nav-links ul li {
   list-style: none;
@@ -33,12 +37,14 @@ nav {
   padding: 8px 12px;
   position: relative;
 }
+
 /*  styles for anchor elemnts */
 .nav-links ul li a {
   color: white;
   text-decoration: none;
   font-size: 20px;
 }
+
 /* Add hover effect to navigation links */
 .nav-links ul li::after {
   content: "";
@@ -49,10 +55,12 @@ nav {
   margin: auto;
   transition: 0.5s;
 }
+
 /* Enhance navigation link hover effect */
 .nav-links ul li:hover::after {
   width: 100%;
 }
+
 /* Text area */
 /* styling for .text-box class */
 .text-box {
@@ -60,6 +68,7 @@ nav {
   padding: 8px;
   background-color: rgb(240, 240, 227);
 }
+
 /* Style the h1 element for the header */
 h1 {
   text-align: center;
@@ -67,6 +76,7 @@ h1 {
   color: #210ce6;
   font-family: "Shadows into Light", sans-serif;
 }
+
 /* consistent text styles to paragraph elements */
 p {
   text-indent: 50px;
@@ -74,6 +84,7 @@ p {
   letter-spacing: 3px;
   font-family: "Shadows into Light", sans-serif;
 }
+
 /* styles for hero button */
 .hero-btn {
   display: inline-block;
@@ -87,16 +98,19 @@ p {
   position: relative;
   cursor: pointer;
 }
+
 /* hover effect to hero button */
 .hero-btn:hover {
   border: 1px solid #f4433f;
   background: #f4433f;
   transition: 1s;
 }
+
 /* Center-align text in elements with .centered-paragraph class */
 .centered-paragraph {
   text-align: center;
 }
+
 /* .......Club ffers..... */
 /* Center and style the '.services' element: */
 .services {
@@ -105,11 +119,13 @@ p {
   text-align: center;
   padding-top: 10px;
 }
+
 /* Style for h1 elements */
 h1 {
   font-size: 36px;
   font-weight: 600;
 }
+
 /* Styles for <p>elements */
 p {
   color: #777;
@@ -118,12 +134,14 @@ p {
   line-height: 22px;
   padding: 10 px;
 }
+
 /*  Styles for elements with the class '.row' */
 .row {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
+
 /* Styles for elements with the class '.service-col' */
 .service-col {
   flex-basis: 31%;
@@ -135,12 +153,14 @@ p {
   box-sizing: border-box;
   transition: 0.5s;
 }
+
 /* Styles for <h3>elements */
 h3 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
 }
+
 /* Styles for elements with the class '.service-col */
 .service-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0.2);
@@ -155,6 +175,7 @@ h3 {
   padding-top: 50px;
   padding-left: 20px;
 }
+
 /* initial size of .mentor-col elements,border,border radius,bottom margin,positioning and Hide any content that overflows*/
 .mentor-col {
   flex-basis: 32%;
@@ -215,6 +236,7 @@ Add margins to images */
   bottom: 49%;
   opacity: 1;
 }
+
 /* testimonials */
 /* Center-align and set the width of the testimonials section, with a top padding */
 .testimonials {
@@ -223,6 +245,7 @@ Add margins to images */
   padding-top: 10px;
   text-align: center;
 }
+
 /* Style for individual testimonial columns */
 .testimonials-col {
   flex-basis: 44%;
@@ -235,6 +258,7 @@ Add margins to images */
   display: flex;
   border: 2px solid green;
 }
+
 /* Style for the testimonial avatar images */
 .testimonials-col img {
   height: 40px;
@@ -242,16 +266,19 @@ Add margins to images */
   margin-right: 30px;
   border-radius: 50%;
 }
+
 /* Reset padding for paragraph elements within testimonial columns */
 .testimonials-col p {
   padding: 0;
 }
+
 /* Style for the testimonial heading (name) */
 
 .testimonials-col h3 {
   margin-top: 15px;
   text-align: left;
 }
+
 /* footer section */
 /* Styling for the footer */
 .footer {
@@ -259,12 +286,14 @@ Add margins to images */
   text-align: center;
   padding: 0px 0;
 }
+
 /* Styling for the h4 element within the footer */
 .footer h4 {
   margin-bottom: 50px;
   margin-top: 20px;
   font-weight: 600;
 }
+
 /* Styling for the social media icons list within the footer */
 .icons ul {
   /* display: flex;
@@ -282,6 +311,7 @@ Add margins to images */
   color: rgb(1, 3, 3);
   cursor: pointer;
 }
+
 /* Styling for individual social media icons within the footer */
 
 .icons li {
@@ -289,14 +319,17 @@ Add margins to images */
   /* Add some spacing between the icons */
   align-items: center;
 }
+
 /* Styling for anchor links within social media icons */
 .icons a {
   text-decoration: none;
 }
+
 /* Styling for the copyright notice in the footer */
 .copyright {
   text-align: center;
 }
+
 /* Styling for the "About Us" description in the footer */
 .aboutus {
   margin-bottom: 40px;
