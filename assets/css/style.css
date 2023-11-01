@@ -336,14 +336,6 @@ Add margins to images */
     text-align: center;
 }
 
-/* Flip card */
-/* flexbox layout with space-between justification to .row class*/
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Styling flipcard */
 .flip-card {
     background-color: transparent;
     width: 300px;
