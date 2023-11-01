@@ -1,337 +1,398 @@
 /* Reset default styles and set font family */
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Shadows into Light", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Shadows into Light", sans-serif;
 }
 
 /*  Update header styles */
 .header {
-  min-height: 100vh;
-  background-color: black;
-  color: white;
-  width: 100%;
-  background-image: url(/assets/images/heroimage.jpeg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    background-image: url(/assets/images/heroimage.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 /* navigation menu styles */
 nav {
-  display: flex;
-  padding: 2% 6%;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-links {
-  flex: 1;
-  text-align: right;
+    flex: 1;
+    text-align: right;
 }
 
 /* navigation links styles */
 .nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
 }
 
 /*  styles for anchor elemnts */
 .nav-links ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 /* Add hover effect to navigation links */
 .nav-links ul li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #f4433f;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f4433f;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
 
 /* Enhance navigation link hover effect */
 .nav-links ul li:hover::after {
-  width: 100%;
+    width: 100%;
 }
 
 /* Text area */
 /* styling for .text-box class */
 .text-box {
-  border: 1px solid rgb(8, 212, 63);
-  padding: 8px;
-  background-color: rgb(240, 240, 227);
+    border: 1px solid rgb(8, 212, 63);
+    padding: 8px;
+    background-color: rgb(240, 240, 227);
 }
 
 /* Style the h1 element for the header */
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #210ce6;
-  font-family: "Shadows into Light", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #210ce6;
+    font-family: "Shadows into Light", sans-serif;
 }
 
 /* consistent text styles to paragraph elements */
 p {
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 3px;
-  font-family: "Shadows into Light", sans-serif;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-family: "Shadows into Light", sans-serif;
 }
 
 /* styles for hero button */
 .hero-btn {
-  display: inline-block;
-  text-decoration: none;
-  text-align: justify;
-  color: rgba(68, 20, 199, 0.881);
-  border: 0px solid rgb(7, 7, 7);
-  padding: 12px 12px;
-  font-size: 15px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: justify;
+    color: rgba(68, 20, 199, 0.881);
+    border: 0px solid rgb(7, 7, 7);
+    padding: 12px 12px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
 
 /* hover effect to hero button */
 .hero-btn:hover {
-  border: 1px solid #f4433f;
-  background: #f4433f;
-  transition: 1s;
+    border: 1px solid #f4433f;
+    background: #f4433f;
+    transition: 1s;
 }
 
 /* Center-align text in elements with .centered-paragraph class */
 .centered-paragraph {
-  text-align: center;
+    text-align: center;
 }
 
 /* .......Club ffers..... */
 /* Center and style the '.services' element: */
 .services {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* Style for h1 elements */
 h1 {
-  font-size: 36px;
-  font-weight: 600;
+    font-size: 36px;
+    font-weight: 600;
 }
 
 /* Styles for <p>elements */
 p {
-  color: #777;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  padding: 10 px;
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10 px;
 }
 
 /*  Styles for elements with the class '.row' */
 .row {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Styles for elements with the class '.service-col' */
 .service-col {
-  flex-basis: 31%;
-  background: rgb(240, 240, 227);
-  border: 2px solid rgb(8, 212, 63);
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
+    flex-basis: 31%;
+    background: rgb(240, 240, 227);
+    border: 2px solid rgb(8, 212, 63);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
 }
 
 /* Styles for <h3>elements */
 h3 {
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
 }
 
 /* Styles for elements with the class '.service-col */
 .service-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0.2);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0.2);
 }
 
 /* .......Story tellers....... */
 /* CSS for the ".mentors" class */
 .mentors {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-  padding-left: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
 }
 
 /* initial size of .mentor-col elements,border,border radius,bottom margin,positioning and Hide any content that overflows*/
 .mentor-col {
-  flex-basis: 32%;
-  border: 10px;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
+    flex-basis: 32%;
+    border: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Set the top and bottom margins to 0,
 and horizontally center elements with the class .quote-center */
 .quote-center {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* Set image width and height,Display images as block-level elements and maintain aspect ratio
 Add margins to images */
 .mentor-col img {
-  width: 300px;
-  height: 200px;
-  display: block;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 2px solid green;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid green;
 }
 
 /* Set a transparent background for .layer elements, full height and width,position and transition for smooth effects  */
 
 .layer {
-  background: transparent;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.5s;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
 }
 
 /* Set the width of h3 elements,font weight,text color,font size,position,opacity and transition */
 
 .layer h3 {
-  width: 100%;
-  font-weight: 500;
-  color: #f4433f;
-  font-size: 26px;
-  bottom: 0;
-  left: 24%;
-  transform: translateX(-50%);
-  position: absolute;
-  opacity: 0;
-  transition: 0.5s;
+    width: 100%;
+    font-weight: 500;
+    color: #f4433f;
+    font-size: 26px;
+    bottom: 0;
+    left: 24%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
 }
 
 /* When .layer elements are hovered over, adjust the position of h3 elements */
 .layer:hover h3 {
-  bottom: 49%;
-  opacity: 1;
+    bottom: 49%;
+    opacity: 1;
 }
 
 /* testimonials */
 /* Center-align and set the width of the testimonials section, with a top padding */
 .testimonials {
-  width: 80%;
-  margin: auto;
-  padding-top: 10px;
-  text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
 }
 
 /* Style for individual testimonial columns */
 .testimonials-col {
-  flex-basis: 44%;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  text-align: left;
-  background: rgb(240, 240, 227);
-  padding: 25px;
-  cursor: pointer;
-  display: flex;
-  border: 2px solid green;
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(240, 240, 227);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    border: 2px solid green;
 }
 
 /* Style for the testimonial avatar images */
 .testimonials-col img {
-  height: 40px;
-  margin-left: 5px;
-  margin-right: 30px;
-  border-radius: 50%;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
 }
 
 /* Reset padding for paragraph elements within testimonial columns */
 .testimonials-col p {
-  padding: 0;
+    padding: 0;
 }
 
 /* Style for the testimonial heading (name) */
 
 .testimonials-col h3 {
-  margin-top: 15px;
-  text-align: left;
+    margin-top: 15px;
+    text-align: left;
 }
 
 /* footer section */
 /* Styling for the footer */
 .footer {
-  width: 100%;
-  text-align: center;
-  padding: 0px 0;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0;
 }
 
 /* Styling for the h4 element within the footer */
 .footer h4 {
-  margin-bottom: 50px;
-  margin-top: 20px;
-  font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 /* Styling for the social media icons list within the footer */
 .icons ul {
-  /* display: flex;
+    /* display: flex;
     color:rgb(1, 3, 3);
     margin:0 13px;
     cursor: pointer; */
-  display: flex;
-  justify-content: center;
-  /* Horizontally center align */
-  align-items: center;
-  /* Vertically center align */
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  color: rgb(1, 3, 3);
-  cursor: pointer;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center align */
+    align-items: center;
+    /* Vertically center align */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: rgb(1, 3, 3);
+    cursor: pointer;
 }
 
 /* Styling for individual social media icons within the footer */
 
 .icons li {
-  margin-right: 10px;
-  /* Add some spacing between the icons */
-  align-items: center;
+    margin-right: 10px;
+    /* Add some spacing between the icons */
+    align-items: center;
 }
 
 /* Styling for anchor links within social media icons */
 .icons a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* Styling for the copyright notice in the footer */
 .copyright {
-  text-align: center;
+    text-align: center;
 }
 
 /* Styling for the "About Us" description in the footer */
 .aboutus {
-  margin-bottom: 40px;
-  text-align: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Flip card */
+/* flexbox layout with space-between justification to .row class*/
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling flipcard */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 10px;
+    /* Added margin to create spacing between cards */
+    float: left;
+    /* Float cards to create a row */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #cccccd;
+    color: white;
+    transform: rotateY(180deg);
+    border: 2px solid green;
+}
+
+/* Added a new class for styling the images */
+.card-image {
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
 }
