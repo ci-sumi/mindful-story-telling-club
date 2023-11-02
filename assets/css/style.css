@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: "Shadows into Light", sans-serif;
+    border: 0;
+    box-sizing: border-box;
 }
 
 /*  Update header styles */
@@ -67,6 +69,7 @@ nav {
     border: 1px solid rgb(8, 212, 63);
     padding: 8px;
     background-color: rgb(240, 240, 227);
+    text-align: center;
 }
 
 /* Style the h1 element for the header */
@@ -79,7 +82,7 @@ h1 {
 
 /* consistent text styles to paragraph elements */
 p {
-    text-indent: 50px;
+    /* text-indent: 50px; */
     text-align: justify;
     letter-spacing: 3px;
     font-family: "Shadows into Light", sans-serif;
@@ -118,6 +121,10 @@ p {
     margin: auto;
     text-align: center;
     padding-top: 10px;
+}
+
+section p {
+    text-align: center;
 }
 
 /* Style for h1 elements */
@@ -196,11 +203,12 @@ and horizontally center elements with the class .quote-center */
 /* Set image width and height,Display images as block-level elements and maintain aspect ratio
 Add margins to images */
 .mentor-col img {
-    width: 300px;
-    height: 200px;
-    display: block;
-    margin-left: 10px;
-    margin-right: 10px;
+    max-width: 300px;
+    width: 100%;
+    object-fit: cover;
+    ;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     border: 2px solid green;
 }
 
@@ -315,14 +323,17 @@ Add margins to images */
 /* Styling for individual social media icons within the footer */
 
 .icons li {
-    margin-right: 10px;
+    margin: 10px;
     /* Add some spacing between the icons */
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 /* Styling for anchor links within social media icons */
 .icons a {
     text-decoration: none;
+    font-size: 170%;
 }
 
 /* Styling for the copyright notice in the footer */
