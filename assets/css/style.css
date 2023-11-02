@@ -413,3 +413,26 @@ Add margins to images */
     text-align: center;
     padding: 10px;
 }
+
+/* Set the display property to 'flex' to create a flexible container */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+/* Style the signup form container */
+#signup {
+    background-color: #bbb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: green;
+    text-align: center;
+    background-image: url(/assets/images/flower.jpg);
+    background-size: 100% 100%;
+    /* Cover the entire section */
+    background-position: center;
+}
