@@ -539,3 +539,24 @@ input[type="message"] {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     /* Add a subtle shadow */
 }
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    #signup {
+        padding: 10px;
+    }
+
+    #signup h2 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="message"] {
+        width: 100%;
+    }
+
+    input[type="message"] {
+        width: 100%;
+    }
+}
