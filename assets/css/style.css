@@ -475,3 +475,21 @@ input[type="message"] {
     align-items: center;
     justify-content: center;
 }
+
+/* Style the radio buttons */
+.radio-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style the submit button */
+.join-button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
