@@ -447,11 +447,12 @@ main {
     background-size: 100% 100%;
     /* Cover the entire section */
     background-position: center;
+    border: 1px solid black;
 }
 
 /* Style the form heading */
 #signup h2 {
-    color: white;
+    color: rgb(210, 29, 29);
     margin-bottom: 20px;
 }
 
@@ -469,7 +470,7 @@ input[type="email"] {
     width: 100%;
     padding: auto;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -479,7 +480,7 @@ input[type="message"] {
     width: 400px;
     /* Specify the width in pixels */
     height: 50px;
-    border: none;
+    border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
     text-align: center;
