@@ -436,3 +436,17 @@ main {
     /* Cover the entire section */
     background-position: center;
 }
+
+/* Style the form heading */
+#signup h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Style the form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(231, 15, 37);
+    font-weight: bold;
+}
