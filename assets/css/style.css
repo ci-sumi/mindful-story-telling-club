@@ -450,3 +450,28 @@ label {
     color: rgb(231, 15, 37);
     font-weight: bold;
 }
+
+/* CSS styles to text and email input elements */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: auto;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="message"] {
+    background-color: white;
+    color: #333;
+    width: 400px;
+    /* Specify the width in pixels */
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
