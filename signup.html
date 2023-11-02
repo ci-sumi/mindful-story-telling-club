@@ -48,7 +48,57 @@
 <!-- Header -->
     </header>
     <main>
-        
+        <!-- This section contains the signup form -->
+        <section id="signup">
+            <!-- The form is submitted to the specified URL when submitted -->
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <!-- Heading for the signup form -->
+                <h2></i> Let's sign up!</h2>
+                <fieldset>
+                    <!-- This fieldset groups related form elements -->
+                    <legend>Contact Information</legend>
+                    <!-- Legend for the contact information section -->
+                    <label for="first_name">First Name</label>
+                    <!-- The first name input field -->
+                    <input type="text" name="first_name" id="first_name" class="text-input" required>
+                   <!-- Input field for the user's last name -->
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required>
+                   <!-- Input field for the user's email address -->
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required>
+                    <!-- Label for the message input field -->
+                    <label for="message">Message</label>
+                    <input type="message" name="message" id="message" class="text-input" required>
+                </fieldset>
+                <!-- This fieldset groups related form elements -->
+                <fieldset>
+                    <!-- Legend for the story teller selection section -->
+                    <legend>Choose your story teller</legend>
+                    <!-- Container for radio button options -->
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="arundhathi">Aundhathi</label>
+                            <input type="radio" name="story_teller" id="arundhathi" value="arundhathi" required checked>
+                        </div>
+                        <div>
+                            <label for="mswaraj">M Swaraj</label>
+                            <input type="radio" name="story_teller" id="mswaraj" value="mswaraj" required>
+                        </div>
+                        <div>
+                            <label for="sarah">Sarah Jpseph</label>
+                            <input type="radio" name="story_teller" id="sarah" value="sarah" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <!-- Reset button for clearing the form inputs -->
+                <button type="reset" class="reset-button">Reset</button>
+                <!-- Submit button for submitting the form -->
+                <button type="submit" class="join-button">Let's Join</button>
+
+            </form>
+        </section>
+
         </main>
     <footer>
     <section class="footer">
