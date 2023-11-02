@@ -560,3 +560,24 @@ input[type="message"] {
         width: 100%;
     }
 }
+
+/* Media query for screens with a maximum width of 400px */
+@media (max-width: 400px) {
+    #signup {
+        padding: 5px;
+    }
+
+    #signup h2 {
+        font-size: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="message"] {
+        width: 100%;
+    }
+
+    input[type="message"] {
+        width: 100%;
+    }
+}
