@@ -13,7 +13,7 @@
     background-color: black;
     color: white;
     width: 100%;
-    background-image: url(../images/heroimage.jpeg);
+    background-image: url(../images/thought.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -599,3 +599,4 @@ input[type="message"] {
             width: 100%;
         }
     }
+}
