@@ -13,10 +13,14 @@
     background-color: black;
     color: white;
     width: 100%;
-    background-image: url(../../assets/images/heroimage.jpeg);
+    background-image: url(../images/heroimage.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+img {
+    object-fit: cover !important;
 }
 
 /* navigation menu styles */
@@ -443,7 +447,7 @@ Add margins to images */
     border-radius: 10px;
     box-shadow: green;
     text-align: center;
-    background-image: url(/assets/images/leaf.jpg);
+    background-image: url(../images/leaf.jpg);
     background-size: 100% 100%;
     /* Cover the entire section */
     background-position: center;
@@ -530,7 +534,8 @@ input[type="message"] {
 }
 
 .signheader {
-    background-image: url(/assets/images/leaf.jpg);
+    background-image: url(../images/leaf.jpg);
+    ;
     /* Background color for the header */
     color: white;
     /* Text color in the header */
@@ -540,44 +545,57 @@ input[type="message"] {
     /* Add a subtle shadow */
 }
 
-/* Media query for screens with a maximum width of 600px */
-@media (max-width: 600px) {
-    #signup {
-        padding: 10px;
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column;
     }
 
-    #signup h2 {
-        font-size: 24px;
+    nav {
+        flex-direction: column;
     }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="message"] {
-        width: 100%;
+    .flip-card {
+        margin: 25px auto;
     }
 
-    input[type="message"] {
-        width: 100%;
-    }
-}
+    /* Media query for screens with a maximum width of 600px */
+    @media (max-width: 600px) {
+        #signup {
+            padding: 10px;
+        }
 
-/* Media query for screens with a maximum width of 400px */
-@media (max-width: 400px) {
-    #signup {
-        padding: 5px;
+        #signup h2 {
+            font-size: 24px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="message"] {
+            width: 100%;
+        }
+
+        input[type="message"] {
+            width: 100%;
+        }
     }
 
-    #signup h2 {
-        font-size: 20px;
-    }
+    /* Media query for screens with a maximum width of 400px */
+    @media (max-width: 400px) {
+        #signup {
+            padding: 5px;
+        }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="message"] {
-        width: 100%;
-    }
+        #signup h2 {
+            font-size: 20px;
+        }
 
-    input[type="message"] {
-        width: 100%;
+        input[type="text"],
+        input[type="email"],
+        input[type="message"] {
+            width: 100%;
+        }
+
+        input[type="message"] {
+            width: 100%;
+        }
     }
-}
