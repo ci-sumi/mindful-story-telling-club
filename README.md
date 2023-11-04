@@ -1,39 +1,37 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Mindful story telling club is for peope who want to experience mindfulness throug story reading.Our club ofers services like  mindful strorytelling workshops,self discovery and reflection and Building a supprtive family
+we do have story tellers  manly there are there  and we do have testimonial section also in the second page the club upcoming events are listed.In thesignup page people cancotact us byusing signup form
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Responsive images are plced in the documentation folder
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+#Testing 
 
-## Codeanywhere Reminders
+Although i have manual testing several times and specically on signup form
+W3 HTML and Css Validator..i do come across with warnins..since code any where  automate formatting caused me not to change the work in the final stage.Css Validation was successful
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+#Site accessibility 
+the screen shot od site accessibility attched in the documentation folder
 
-`python3 -m http.server`
+### Deployment to GitHub Pages
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the [GitHub repository](https://github.com/ci-sumi/mindful-story-telling-club.git), navigate to the Settings tab
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The live link can be found [here](https://ci-sumi.github.io/mindful-story-telling-club/)
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Local Deployment
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+@@ -358,4 +360,4 @@ In your IDE Terminal, type the following command to clone my repository:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
+- Credits
+  Mentor :Aleksei Konovalov and Advsors(Fajar Pm and Rohini)
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+-Media
+All the media files wre used inthis download from www.unspah.com
