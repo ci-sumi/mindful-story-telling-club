@@ -154,7 +154,7 @@ p {
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
-    padding: 10 px;
+    padding: 10px;
 }
 
 /*  Styles for elements with the class '.row' */
@@ -392,7 +392,7 @@ Add margins to images */
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     backface-visibility: hidden;
 }
 
@@ -456,7 +456,6 @@ Add margins to images */
     background-color: #bbb;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: green;
     text-align: center;
     background-image: url(../images/leaf.jpg);
     background-size: 100% 100%;
@@ -483,7 +482,6 @@ label {
 input[type="text"],
 input[type="email"] {
     width: 100%;
-    padding: auto;
     margin-bottom: 15px;
     border: 1px solid black;
     border-radius: 5px;
