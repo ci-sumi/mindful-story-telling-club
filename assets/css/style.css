@@ -5,15 +5,17 @@
     font-family: "Shadows into Light", sans-serif;
     border: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /*  Update header styles */
 .header {
     min-height: 100vh;
     background-color: black;
+    text-decoration: none;
     color: white;
     width: 100%;
-    background-image: url(../images/thought.jpg);
+    background-image: url(../images/story.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -24,7 +26,7 @@
     background-color: black;
     color: white;
     width: 100%;
-    background-image: url(../images/book.jpg);
+    background-image: url(../images/thought.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -57,7 +59,7 @@ nav {
 
 /*  styles for anchor elemnts */
 .nav-links ul li a {
-    color: rgb(15, 15, 15);
+    color: #210ce6;
     text-decoration: none;
     font-size: 20px;
 }
@@ -67,7 +69,7 @@ nav {
     content: "";
     width: 0%;
     height: 2px;
-    background: #f4433f;
+    background: hsl(350, 100%, 80%);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -83,7 +85,8 @@ nav {
 .text-box {
     border: 1px solid rgb(8, 212, 63);
     padding: 8px;
-    background-color: rgb(240, 240, 227);
+    /* background-color: rgb(240, 240, 227); */
+    background-color: hsl(350, 100%, 80%);
     text-align: center;
 }
 
@@ -91,13 +94,19 @@ nav {
 h1 {
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
     color: #210ce6;
     font-family: "Shadows into Light", sans-serif;
+}
+
+.row {
+    border-color: rgb(8, 212, 63);
 }
 
 /* consistent text styles to paragraph elements */
 p {
     /* text-indent: 50px; */
+    font-size: 10px;
     text-align: justify;
     letter-spacing: 3px;
     font-family: "Shadows into Light", sans-serif;
@@ -108,19 +117,19 @@ p {
     display: inline-block;
     text-decoration: none;
     text-align: justify;
-    color: rgba(68, 20, 199, 0.881);
-    border: 0px solid rgb(7, 7, 7);
+    color: rgb(8, 212, 63);
     padding: 12px 12px;
-    font-size: 15px;
+    font-size: 25px;
     background: transparent;
     position: relative;
     cursor: pointer;
+
 }
 
 /* hover effect to hero button */
 .hero-btn:hover {
-    border: 1px solid #f4433f;
-    background: #f4433f;
+    border: none;
+    background: hwb(246 5% 50%);
     transition: 1s;
 }
 
@@ -151,8 +160,8 @@ h1 {
 /* Styles for <p>elements */
 p {
     color: rgb(7, 7, 7);
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: bold;
     line-height: 22px;
     padding: 10px;
 }
@@ -167,8 +176,9 @@ p {
 /* Styles for elements with the class '.service-col' */
 .service-col {
     flex-basis: 31%;
-    background: rgb(240, 240, 227);
-    border: 2px solid rgb(8, 212, 63);
+    background-color: hsl(350, 100%, 80%);
+    /* background: rgb(240, 240, 227); */
+    border: 4px solid rgb(8, 212, 63);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -229,7 +239,7 @@ Add margins to images */
 
 /* Set a transparent background for .layer elements, full height and width,position and transition for smooth effects  */
 
-.layer {
+/* .layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -237,7 +247,7 @@ Add margins to images */
     top: 0;
     left: 0;
     transition: 0.5s;
-}
+} */
 
 /* Set the width of h3 elements,font weight,text color,font size,position,opacity and transition */
 
@@ -275,11 +285,12 @@ Add margins to images */
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: rgb(240, 240, 227);
+    background-color: hsl(350, 100%, 80%);
+    /* background: rgb(240, 240, 227); */
     padding: 25px;
     cursor: pointer;
     display: flex;
-    border: 2px solid green;
+    border: 4px solid green;
 }
 
 /* Style for the testimonial avatar images */
@@ -331,7 +342,7 @@ Add margins to images */
     list-style: none;
     padding: 0;
     margin: 0;
-    color: rgb(1, 3, 3);
+    color: green;
     cursor: pointer;
 }
 
@@ -349,6 +360,7 @@ Add margins to images */
 .icons a {
     text-decoration: none;
     font-size: 170%;
+    color: green;
 }
 
 /* Styling for the copyright notice in the footer */
@@ -380,7 +392,7 @@ Add margins to images */
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: hsl(350, 100%, 80%);
 }
 
 .flip-card:hover .flip-card-inner {
@@ -390,6 +402,9 @@ Add margins to images */
 .flip-card-front,
 .flip-card-back {
     position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100%;
     /* -webkit-backface-visibility: hidden; */
@@ -397,12 +412,12 @@ Add margins to images */
 }
 
 .flip-card-front {
-    background-color: #bbb;
+    background-color: hsl(350, 100%, 80%);
     color: black;
 }
 
 .flip-card-back {
-    background-color: #cccccd;
+    background-color: hsl(350, 100%, 80%);
     color: white;
     transform: rotateY(180deg);
     border: 2px solid green;
@@ -417,7 +432,8 @@ Add margins to images */
 
 /* Styling for the .divider class */
 .divider {
-    font-size: 30px;
+    font-size: 25px;
+    border: 1px black dotted;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -430,8 +446,8 @@ Add margins to images */
     flex: 1;
     content: "";
     padding: 3px;
-    background-color: rgb(183, 197, 186);
-    margin: 5px;
+    background-color: #210ce6;
+    margin: 0.5px;
 }
 
 /* Styling for the #bottomline section */
@@ -448,20 +464,20 @@ Add margins to images */
     justify-content: center;
     height: 100vh;
     background-image: url(/assets/images/leaf.jpg);
-} */
+
 
 /* rgb(240, 240, 227); */
 /* Style the signup form container */
 #signup {
-    background-color: #bbb;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    background-image: url(../images/leaf.jpg);
+    /* background-image: url(../images/pinkbook.jpg); */
     background-size: 100% 100%;
     /* Cover the entire section */
-    background-position: center;
-    border: 1px solid black;
+    background-position: cover;
+    border: 4px dotted green;
 }
 
 /* Style the form heading */
@@ -543,10 +559,9 @@ input[type="message"] {
 }
 
 .signheader {
-    background-image: url(../images/leaf.jpg);
-    ;
+
     /* Background color for the header */
-    color: white;
+    color: green;
     /* Text color in the header */
     padding: 20px;
     /* Add padding for spacing */
@@ -567,6 +582,17 @@ input[type="message"] {
         margin: 25px auto;
     }
 
+    main {
+        background-image: url("assets/images/thanku.jpg");
+        background-size: contain;
+    }
+    main{
+        background-image: url("assets/images/bluegreenpink.jpg");
+        background-size: cover;
+      
+    }
+
+
     /* Media query for screens with a maximum width of 600px */
     @media (max-width: 600px) {
         #signup {
@@ -586,6 +612,17 @@ input[type="message"] {
         input[type="message"] {
             width: 100%;
         }
+
+        main {
+            background-image: url("assets/images/thanku.jpg");
+            background-size: contain;
+        }
+        main{
+            background-image: url("assets/images/bluegreenpink.jpg");
+            background-size: cover;
+          
+        }
+
     }
 
     /* Media query for screens with a maximum width of 400px */
@@ -607,5 +644,17 @@ input[type="message"] {
         input[type="message"] {
             width: 100%;
         }
+
+        main {
+            background-image: url("assets/images/thanku.jpg");
+            background-size: contain;
+        }
+        main{
+            background-image: url("assets/images/bluegreenpink.jpg");
+            background-size: cover;
+          
+        }
+
+       
     }
 }

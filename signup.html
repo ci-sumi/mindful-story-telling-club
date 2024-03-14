@@ -1,112 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tags for search engine -->
-    <meta
-      name="description"
-      content="Mindful Story Telling Club, Dublin Mindful Club">
-    <meta
-      name="keywords"
-      content="Storytelling, mindful, Dublin Story Telling">
-    <!-- Favicon -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta tags for search engine -->
+  <meta name="description" content="Mindful Story Telling Club, Dublin Mindful Club">
+  <meta name="keywords" content="Storytelling, mindful, Dublin Story Telling">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-    <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,400&family=Shadows+Into+Light&display=swap"
-      rel="stylesheet">
-    <style>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,400&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <style>
     main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(../images/leaf.jpg);
-}
-    </style>
-    <title>MINDFUL | Sign-Up</title>
-  </head>
-  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color:pink;
+      background-size: cover;
 
-  <body>
-    <header>
-        <section class="signheader">
-            <nav>
-                <a href="index.html">
-                    <h1 id="logo">Mindful Storytelling Club</h1>
-                </a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="mindful.html">Mindful</a></li>
-                    <li><a href="signup.html">Sign Up</a></li>
-                </ul>
+    }
+  </style>
+  <title>MINDFUL | Sign-Up</title>
+</head>
+
+
+<body>
+  <header>
+    <section class="signheader">
+      <nav>
+        <a href="index.html">
+          <h1 id="logo">Mindful Storytelling Club</h1>
+        </a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mindful.html">Mindful</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- Header -->
+  </header>
+  <main>
+    <!-- This section contains the signup form -->
+    <section id="signup">
+      <!-- The form is get to the response.html-->
+      <form id="signup-form" method="GET" action="response.html">
+        <!-- Heading for the signup form -->
+        <h2>Let's sign up!</h2>
+        <fieldset>
+          <!-- This fieldset groups related form elements -->
+          <legend>Contact Information</legend>
+          <!-- Legend for the contact information section -->
+          <label for="first_name">First Name</label>
+          <!-- The first name input field -->
+          <input type="text" name="first_name" id="first_name" class="text-input" required>
+          <!-- Input field for the user's last name -->
+          <label for="last_name">Last Name</label>
+          <input type="text" name="last_name" id="last_name" class="text-input" required>
+          <!-- Input field for the user's email address -->
+          <label for="email_address">Email Address</label>
+          <input type="email" name="email_address" id="email_address" class="text-input" required>
+          <!-- Label for the message input field -->
+          <label for="message">Message</label>
+          <input type="text" name="message" id="message" class="text-input" required>
+        </fieldset>
+        <!-- This fieldset groups related form elements -->
+        <fieldset>
+          <!-- Legend for the story teller selection section -->
+          <legend>Choose your story teller</legend>
+          <!-- Container for radio button options -->
+          <div class="radio-buttons">
+            <div>
+              <label for="arundhathi">Aundhathi</label>
+              <input type="radio" name="story_teller" id="arundhathi" value="arundhathi" required checked>
             </div>
-            </nav>
-        </section>
-<!-- Header -->
-    </header>
-    <main>
-        <!-- This section contains the signup form -->
-        <section id="signup">
-            <!-- The form is get to the response.html-->
-            <form id="signup-form" method="GET" action="response.html">
-            <!-- Heading for the signup form -->
-                <h2>Let's sign up!</h2>
-                <fieldset>
-                    <!-- This fieldset groups related form elements -->
-                    <legend>Contact Information</legend>
-                    <!-- Legend for the contact information section -->
-                    <label for="first_name">First Name</label>
-                    <!-- The first name input field -->
-                    <input type="text" name="first_name" id="first_name" class="text-input" required>
-                   <!-- Input field for the user's last name -->
-                    <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name" class="text-input" required>
-                   <!-- Input field for the user's email address -->
-                    <label for="email_address">Email Address</label>
-                    <input type="email" name="email_address" id="email_address" class="text-input" required>
-                    <!-- Label for the message input field -->
-                    <label for="message">Message</label>
-                    <input type="text" name="message" id="message" class="text-input" required>
-                </fieldset>
-                <!-- This fieldset groups related form elements -->
-                <fieldset>
-                    <!-- Legend for the story teller selection section -->
-                    <legend>Choose your story teller</legend>
-                    <!-- Container for radio button options -->
-                    <div class="radio-buttons">
-                        <div>
-                            <label for="arundhathi">Aundhathi</label>
-                            <input type="radio" name="story_teller" id="arundhathi" value="arundhathi" required checked>
-                        </div>
-                        <div>
-                            <label for="mswaraj">M Swaraj</label>
-                            <input type="radio" name="story_teller" id="mswaraj" value="mswaraj" required>
-                        </div>
-                        <div>
-                            <label for="sarah">Sarah Jpseph</label>
-                            <input type="radio" name="story_teller" id="sarah" value="sarah" required>
-                        </div>
-                    </div>
-                </fieldset>
-                <!-- Reset button for clearing the form inputs -->
-                <button type="reset" class="reset-button">Reset</button>
-                <!-- Submit button for submitting the form -->
-                <button type="submit" class="join-button">Let's Join</button>
+            <div>
+              <label for="mswaraj">M Swaraj</label>
+              <input type="radio" name="story_teller" id="mswaraj" value="mswaraj" required>
+            </div>
+            <div>
+              <label for="sarah">Sarah Jpseph</label>
+              <input type="radio" name="story_teller" id="sarah" value="sarah" required>
+            </div>
+          </div>
+        </fieldset>
+        <!-- Reset button for clearing the form inputs -->
+        <button type="reset" class="reset-button">Reset</button>
+        <!-- Submit button for submitting the form -->
+        <button type="submit" class="join-button">Let's Join</button>
 
-            </form>
-        </section>
+      </form>
+    </section>
 
-        </main>
-    <footer>
+  </main>
+  <footer>
     <section class="footer">
       <h4>About Us</h4>
       <!-- About Us Description -->
@@ -115,52 +114,31 @@
         <ul>
           <!-- Social Media Icons -->
           <li>
-            <a
-              href="http://www.facebook.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit facebook page(Opens in a new tab)"
-              ><i class="fa-brands fa-facebook"></i
-            ></a>
+            <a href="http://www.facebook.com/" target="_blank" rel="noopener"
+              aria-label="Visit facebook page(Opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
           </li>
           <li>
-            <a
-              href="http://www.twitter.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit twitter page(Opens in a new tab)"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
+            <a href="http://www.twitter.com/" target="_blank" rel="noopener"
+              aria-label="Visit twitter page(Opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
           </li>
           <li>
-            <a
-              href="http://www.instagram.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit twitter page(Opens in a new tab)"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
+            <a href="http://www.instagram.com/" target="_blank" rel="noopener"
+              aria-label="Visit twitter page(Opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
           </li>
           <li>
-            <a
-              href="http://www.linkedin.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit twitter page(Opens in a new tab)"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
+            <a href="http://www.linkedin.com/" target="_blank" rel="noopener"
+              aria-label="Visit twitter page(Opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
           </li>
         </ul>
       </div>
       <!-- Copyright Notice -->
-      <p class="copyright"><strong>copyright@MindfullStorytelling</strong></p>
+      <p class="copyright"><strong>Copyright&copy;Layali</strong></p>
     </section>
-   </footer>
-    <!-- font awesome -->
-    <script
-      src="https://kit.fontawesome.com/5f2c19ceed.js"
-      crossorigin="anonymous">
-    </script>
-    
-  </body>
+  </footer>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/5f2c19ceed.js" crossorigin="anonymous">
+  </script>
+
+</body>
+
 </html>
