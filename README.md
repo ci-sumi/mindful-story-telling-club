@@ -8,8 +8,8 @@
 1.  [Site Info](#site-info)
 2.  [UX](#ux)
     2.1 [Ideal User Demographic](#ideal-user-demographic)
-    2.2 [User Storeies](#user-stories)
-    2.3 [Development Planes] (#development-planes)
+    2.2 [User Stories](#user-stories)
+    2.3 [Development Planes](#development-planes)
     2.4 [Design](#design)
 3. [Features](#features)
     3.1 [Existing Features](#existing-features)
@@ -45,3 +45,40 @@
        Mindfulness techniques are integrated into club activities to promote relaxation, self-awareness, and emotional well-being. By practicing mindfulness during storytelling sessions and discussions, members learn to cultivate presence, compassion, and resilience in their daily lives.
 
   [Back to top⬆️](#mindful-story-telling-club)
+
+  ## UX
+
+  ### Ideal User Demographic
+  The Ideal User for this website is:
+  * The ideal user might range from young adults to   older individuals
+  * Ideal user is likely to have an interest in storytelling, literature, mindfulness practices, and self-improvement. 
+  * The ideal user may already have an interest in mindfulness or be open to exploring mindfulness techniques as a way to reduce stress, improve mental health, and enhance overall well-being.
+  *  Ideal user values connection and community.
+  * Ideal user enjoys storytelling in various forms, including reading books, listening to podcasts, attending storytelling events, and sharing their own stories.
+  * Ideal user is interested in personal growth and self-reflection
+
+  ### User Stories
+  #### Current User Goals
+    As a Current User:
+     1. I want to browse and discover upcoming storytelling sessions and events so that I can plan my attendance accordingly.
+     2. I want to share my personal stories during designated storytelling sessions so that I can connect with others and contribute to the club's community.
+     3. I want to participate in mindfulness workshops and activities offered by the club so that I can learn new techniques for relaxation and self-awareness.
+     4. I want to engage in discussions and socialize with other members through the club's online forum or community platform so that I can connect with like-minded individuals and foster relationships.
+     5. The Home page has General information about the club.
+     6. The mindful page has upcoming event list which user can keep track of it.
+     7.The navigation bar is a common feature across all pages of the Mindful Storytelling Club website, providing easy access to each section of the site.
+
+    #### As a visitor Goals
+     1. I want to learn about the club's mission, values, and featured storytellers so that I can understand what the club offers and decide if it aligns with my interests.
+     2. I expect to find a clear and user-friendly navigation system that guides me seamlessly through the different sections of the site. 
+     3. When visiting the Mindful Storytelling Club website for the first time, I expect to be greeted by visually appealing and relevant imagery that enhances my overall browsing experience.
+     * The images related to content were sourced from Wikipedia [Wikipedia](https://www.wikipedia.org/), while other images were obtained from Pexels and Unsplash.[Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+     * color palate from [coolors] https://coolors.co/f5fbef-92ad94-748b75-503d42-84c318;
+
+     4.As visitor if you are interested,you can Contact Us section that leads to the last Contact Page with a form to contact the club for mindfulness.
+
+     [Back to top⬆️](#mindful-story-telling-club)
+
+
+
+
