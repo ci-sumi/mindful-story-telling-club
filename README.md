@@ -124,6 +124,7 @@
 
     <img src="./assets/readme_images/features/mindfulness.png" width="80%">
   </details>
+
   * **Club Offers**
   * This section allows the user to know the club goals.
    <details>
@@ -141,6 +142,8 @@
     <summary>Screenshot</summary>
 
     <img src="./assets/readme_images/features/contact.png" width="300px">
+    <img src="./assets/readme_images/features/contactresponse.png" width="300px">
+
   </summary>
 
 
@@ -161,6 +164,7 @@
 * **Mindful**
 
   * This page main section provides upcoming events of club and its details
+  * Also provides inspirational quotes
   
   
   <details>
@@ -168,6 +172,7 @@
       
     <img src="./assets/readme_images/features/upcomingevents.png" width="80%">
     <img src="./assets/readme_images/features/detailsevent.png" width="80%">
+    <img src="./assets/readme_images/features/clubquotes.png" width="80%">
   </details>
 *  **Storytellers**
  * include images of story tellers
@@ -191,17 +196,7 @@
 
 
 
-* **Contact Us Page**
 
-  * This page will allow the user to send his minimal details in order to get contacted by the Institute for Wellbeing. The name and email address are requested, whilest the message is optional.
-  * On bigger screens an image of a clown-like fake smile person apears to the left side of the form.
-  
-  <details>
-    <summary>Screenshot</summary>
-
-    <img src="./assets/readme_images/features/contact-form.png" width="80%">
-    <img src="./assets/readme_images/features/contact-form1.png" width="80%">
-  </details>
  
 ### Features to Implement
 * **Short Testimonials Page**
