@@ -478,6 +478,7 @@ Add margins to images */
     /* Cover the entire section */
     background-position: cover;
     border: 4px dotted green;
+   
 }
 
 /* Style the form heading */
@@ -501,6 +502,8 @@ input[type="email"] {
     margin-bottom: 15px;
     border: 1px solid black;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 input[type="message"] {
