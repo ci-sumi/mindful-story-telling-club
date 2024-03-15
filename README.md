@@ -77,7 +77,165 @@
 
      4.As visitor if you are interested,you can Contact Us section that leads to the last Contact Page with a form to contact the club for mindfulness.
 
-     [Back to top⬆️](#mindful-story-telling-club)
+
+[Back to top⬆️](#mindful-story-telling-club)
+
+
+
+## Features 
+### Existing Features
+* **Navigation Bar**
+
+  * Featured on all three pages, the full responsive navigation bar includes the name of club and links to the Home page, mindful events and Sign Up page and is identical in each page to allow for easy navigation.
+  * On hover a small animation of transition appears, a colorful underline appears when mouse hover
+  * On smaller screens the logo goes up in the center above the links.
+
+  
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/nav.png" width="80%">
+    <!-- <img src="./assets/readme_images/features/navbar2.png" width="80%">
+    <img src="./assets/readme_images/features/navbar3.png" width="50%"> -->
+  </details>
+
+  
+
+* **The landing page image**
+
+  * The landing includes a photograph with text overlay to allow the user to see the name of the club.
+  
+
+  
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/hero-image.png" width="80%">
+    <img src="./assets/readme_images/features/secondhero-image.png" width="80%">
+  </details>
+
+* **Short Info Section**
+
+  * This section allows the user to grasp the general info about the mindful story club.
+  
+  
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/mindfulness.png" width="80%">
+  </details>
+  * **Club Offers**
+  * This section allows the user to know the club goals.
+   <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/cluboffers.png" width="80%">
+  </details>
+   
+
+* **Contact Section**
+  * The Contact page to which the Contact Us button is leading on click. 
+  * There's an encouraging message 
+
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/contact.png" width="300px">
+  </summary>
+
+
+* **The Footer** 
+
+  * The footer section includes links to the relevant social media sites of the Institute (actually leading only to the hompegaes of the respective social media sites). The links will open to a new tab to allow easy navigation for the user. 
+  * The footer is valuable to the user as it encourages them to keep connected via social media.
+  * The FontAwesome icons are used on smaller and middle screens, whilst the text appears on bigger screens.
+  * There's a copyright info under the links.
+  
+  <details>
+    <summary>Screenshots</summary>
+
+    <img src="./assets/readme_images/features/footer.png" width="80%">
+   
+  </details>
+  
+* **Mindful**
+
+  * This page main section provides upcoming events of club and its details
+  
+  
+  <details>
+    <summary>Screenshot</summary>
+      
+    <img src="./assets/readme_images/features/upcomingevents.png" width="80%">
+    <img src="./assets/readme_images/features/detailsevent.png" width="80%">
+  </details>
+*  **Storytellers**
+ * include images of story tellers
+  <details>
+    <summary>Screenshot</summary>
+      
+    <img src="./assets/readme_images/features/storytellers.png" width="80%">
+  </details>
+
+
+* **Testimonials**
+
+  * The memmbers rating on club and their review. 
+  <details>
+    <summary>Screenshot</summary>
+      
+    <img src="./assets/readme_images/features/memberssay.png" width="80%">
+    
+  </details>
+  
+
+
+
+* **Contact Us Page**
+
+  * This page will allow the user to send his minimal details in order to get contacted by the Institute for Wellbeing. The name and email address are requested, whilest the message is optional.
+  * On bigger screens an image of a clown-like fake smile person apears to the left side of the form.
+  
+  <details>
+    <summary>Screenshot</summary>
+
+    <img src="./assets/readme_images/features/contact-form.png" width="80%">
+    <img src="./assets/readme_images/features/contact-form1.png" width="80%">
+  </details>
+ 
+### Features to Implement
+* **Short Testimonials Page**
+  * This could be a nice interactive page in where the testimonials of users who visited the page would be presented. The users would be invited to share their experiences about the smiling depression, the Institute of Wellbeing and the website content.
+
+## Deployment
+  * Navigate to the Settings tab in the GitHub repository.
+  * From the left side menu, select **Pages**.
+  * In the source section drop-down menu, choose the main branch and click **Save**.
+  * Once the **main** branch is selected and saved, the page will automatically refresh, displaying a detailed ribbon to indicate the successful deployment.
+  You can access the live link here: https://ci-sumi.github.io/mindful-story-telling-club/
+
+  ### Local Deployment
+   * To create a local copy of this project, you can clone it. In your Integrated Development Environment (IDE) Terminal, use the following command to clone the repository:
+    **git clone https://github.com/ci-sumi/mindful-story-telling-club.git**
+
+
+    
+
+
+## Future Improvements
+  * Add custom 404 page
+  * I acknowledge that some of the commit messages may not meet the desired standards in terms of clarity and quality. I am committed to improving the quality of my commit messages in the future.
+  * Fully functional contact form.
+ 
+## Acknowledgements
+  * I extend a special thanks to my mentors, Aleksei Konovalov and Antonio Rodriguez, for their patient and insightful guidance throughout the project.
+  * A heartfelt thank you to Tomislav, a Code Institute Alumni, for his valuable support and encouragement.
+  * I am grateful to my friends who assisted in testing the project and providing valuable feedback.
+  
+
+[Back to top⬆️](#mindful-story-telling-club)
+
+      
 
 
 
