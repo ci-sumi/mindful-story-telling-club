@@ -15,7 +15,7 @@
     text-decoration: none;
     color: white;
     width: 100%;
-    background-image: url(../images/story.jpeg);
+    background-image: url(../images/bk.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -86,7 +86,7 @@ nav {
     border: 1px solid rgb(8, 212, 63);
     padding: 8px;
     /* background-color: rgb(240, 240, 227); */
-    background-color: hsl(350, 100%, 80%);
+    background-color: #f9f9f9;
     text-align: center;
 }
 
@@ -285,7 +285,7 @@ Add margins to images */
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background-color: hsl(350, 100%, 80%);
+    background-color: #f9f9f9;;
     /* background: rgb(240, 240, 227); */
     padding: 25px;
     cursor: pointer;
@@ -421,6 +421,9 @@ Add margins to images */
     color: white;
     transform: rotateY(180deg);
     border: 2px solid green;
+}
+div.flip-card-back strong {
+    color: #333; /* Adjust text color to ensure sufficient contrast */
 }
 
 /* Added a new class for styling the images */
@@ -589,11 +592,11 @@ input[type="message"] {
         background-image: url("assets/images/thanku.jpg");
         background-size: contain;
     }
-    main{
+    /* main{
         background-image: url("assets/images/bluegreenpink.jpg");
         background-size: cover;
       
-    }
+    } */
 
 
     /* Media query for screens with a maximum width of 600px */
@@ -620,11 +623,11 @@ input[type="message"] {
             background-image: url("assets/images/thanku.jpg");
             background-size: contain;
         }
-        main{
+        /* main{
             background-image: url("assets/images/bluegreenpink.jpg");
             background-size: cover;
           
-        }
+        } */
 
     }
 
@@ -652,11 +655,11 @@ input[type="message"] {
             background-image: url("assets/images/thanku.jpg");
             background-size: contain;
         }
-        main{
+        /* main{
             background-image: url("assets/images/bluegreenpink.jpg");
             background-size: cover;
           
-        }
+        } */
 
        
     }
