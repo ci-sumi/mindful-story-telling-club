@@ -62,7 +62,7 @@ nav {
 
 /*  styles for anchor elemnts */
 .nav-links ul li a {
-    color:black;
+    color:red;
     text-decoration: none;
     font-size: 20px;
 }
