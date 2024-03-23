@@ -63,9 +63,12 @@ nav {
 
 /*  styles for anchor elemnts */
 .nav-links ul li a {
-    color:darkgreen;
+    color:green;
     text-decoration: none;
     font-size: 20px;
+    padding: 0px;
+    background-color: blue;
+    border-radius: 5px;
 }
 
 /* Add hover effect to navigation links */
