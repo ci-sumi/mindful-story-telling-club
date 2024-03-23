@@ -596,17 +596,8 @@ input[type="message"] {
         background-image: url("assets/images/thanku.jpg");
         background-size: contain;
     }
-    .mindheader {
-        min-height: auto;
-        /* background-image: url(../images/mind-65f8528b3fa07.webp);
-        background-size:contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        max-width:fit-content;
-        min-height: fit-content; */
-        
 
-    }
+}
     /* main{
         background-image: url("assets/images/bluegreenpink.jpg");
         background-size: cover;
@@ -638,15 +629,7 @@ input[type="message"] {
             background-image: url("assets/images/thanku.jpg");
             background-size: contain;
         }
-        .mindheader {
-            /* background-image: url(../images/mind-65f8528b3fa07.webp);
-            background-size:contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            max-width: fit-content; */
-            min-height: auto;
-    
-        }
+      
         /* main{
             background-image: url("assets/images/bluegreenpink.jpg");
             background-size: cover;
@@ -679,14 +662,8 @@ input[type="message"] {
             background-image: url("assets/images/thanku.jpg");
             background-size: contain;
         }
-        .mindheader {
-            /* background-image: url(../images/mind-65f8528b3fa07.webp);
-            background-size:contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            max-width: fit-content; */
-            min-height: auto;
     
+            
         }
         /* main{
             background-image: url("assets/images/bluegreenpink.jpg");
@@ -694,6 +671,47 @@ input[type="message"] {
           
         } */
 
-       
-    }
-}
+        .mindheader {
+            background-image: url(../images/mind-65f8528b3fa07.webp);
+            background-size: cover;
+            position: relative;
+            background-repeat: no-repeat;
+            /* width: 100%; */
+            /* Other styles as needed */
+        }
+        
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .mindheader {
+                min-height: 225px; /* Adjust as needed */
+            }
+        }
+        
+        /* Media query for medium-sized screens */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .mindheader {
+                min-height: 325px; /* Adjust as needed */
+            }
+        }
+        
+        /* Media query for larger screens */
+        @media (min-width: 1025px) {
+            .mindheader {
+                min-height: 425px; /* Adjust as needed */
+            }
+        }
+        @media (min-width: 4111px) {
+            .mindheader {
+                min-height: 1300px; /* Adjust as needed */
+            }
+            p{
+                text-align: center;
+
+
+            }
+                
+            } 
+        
+        
+        
+    
