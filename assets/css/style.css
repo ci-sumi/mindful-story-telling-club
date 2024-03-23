@@ -15,7 +15,7 @@
     text-decoration: none;
     color: white;
     width: 100%;
-    background-image: url(../images/bk.jpg);
+    background-image: url(../images/story.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -26,12 +26,15 @@
     background-color: black;
     color: white;
     width: 100%;
-    background-image: url(../images/thought.jpg);
+    background-image: url(../images/mind-65f8528b3fa07.webp);
     background-position: center;
     background-size: cover;
     position: relative;
 }
-
+#logo{
+    font-size: 36px;
+    font-weight: 600;
+}
 img {
     object-fit: cover !important;
 }
@@ -59,7 +62,7 @@ nav {
 
 /*  styles for anchor elemnts */
 .nav-links ul li a {
-    color: #210ce6;
+    color:black;
     text-decoration: none;
     font-size: 20px;
 }
