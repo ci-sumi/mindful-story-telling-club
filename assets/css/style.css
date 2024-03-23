@@ -72,7 +72,7 @@ nav {
     content: "";
     width: 0%;
     height: 2px;
-    background: hsl(350, 100%, 80%);
+    background: red;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -179,9 +179,10 @@ p {
 /* Styles for elements with the class '.service-col' */
 .service-col {
     flex-basis: 31%;
-    background-color: hsl(350, 100%, 80%);
+    background-color: rgb(8, 212, 63);
+    /* background-color: hsl(350, 100%, 80%); */
     /* background: rgb(240, 240, 227); */
-    border: 4px solid rgb(8, 212, 63);
+    border: 4px solid hwb(246 5% 50%);;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -257,7 +258,7 @@ Add margins to images */
 .layer h3 {
     width: 100%;
     font-weight: 500;
-    color: #f4433f;
+    color: red;
     font-size: 26px;
     bottom: 0;
     left: 24%;
@@ -420,7 +421,7 @@ Add margins to images */
 }
 
 .flip-card-back {
-    background-color: hsl(350, 100%, 80%);
+    background-color:white;
     color: white;
     transform: rotateY(180deg);
     border: 2px solid green;
