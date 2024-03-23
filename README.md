@@ -34,15 +34,15 @@
 
  ## Site Info
 
-      The club aims to create a warm and inclusive environment where individuals from diverse backgrounds feel welcome and valued. This sense of belonging fosters connections and encourages members to participate actively in club activities.
+The club aims to create a warm and inclusive environment where individuals from diverse backgrounds feel welcome and valued. This sense of belonging fosters connections and encourages members to participate actively in club activities.
 
-      The club features permanent storytellers who are experienced and skilled in the art of storytelling. These storytellers curate and present famous stories and books to the club members during regular sessions, captivating audiences with their engaging performances.
+The club features permanent storytellers who are experienced and skilled in the art of storytelling. These storytellers curate and present famous stories and books to the club members during regular sessions, captivating audiences with their engaging performances.
 
-       In addition to listening to famous stories, club members have the opportunity to share their own personal stories during designated sessions. This sharing of personal experiences allows members to express themselves authentically, connect with others on a deeper level, and find support and understanding within the community.
+In addition to listening to famous stories, club members have the opportunity to share their own personal stories during designated sessions. This sharing of personal experiences allows members to express themselves authentically, connect with others on a deeper level, and find support and understanding within the community.
 
-       The club aims to uplift and inspire its members by providing a supportive space where individuals can share their triumphs, challenges, and reflections. Through storytelling and active listening, members offer empathy, encouragement, and solidarity, fostering a culture of positivity and mutual support.
+The club aims to uplift and inspire its members by providing a supportive space where individuals can share their triumphs, challenges, and reflections. Through storytelling and active listening, members offer empathy, encouragement, and solidarity, fostering a culture of positivity and mutual support.
 
-       Mindfulness techniques are integrated into club activities to promote relaxation, self-awareness, and emotional well-being. By practicing mindfulness during storytelling sessions and discussions, members learn to cultivate presence, compassion, and resilience in their daily lives.
+Mindfulness techniques are integrated into club activities to promote relaxation, self-awareness, and emotional well-being. By practicing mindfulness during storytelling sessions and discussions, members learn to cultivate presence, compassion, and resilience in their daily lives.
 
   [Back to top⬆️](#mindful-story-telling-club)
 
