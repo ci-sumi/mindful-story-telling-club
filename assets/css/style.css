@@ -34,6 +34,7 @@
 #logo{
     font-size: 36px;
     font-weight: 600;
+    color: blue;
 }
 img {
     object-fit: cover !important;
@@ -62,7 +63,7 @@ nav {
 
 /*  styles for anchor elemnts */
 .nav-links ul li a {
-    color:red;
+    color:blue;
     text-decoration: none;
     font-size: 20px;
 }
@@ -72,7 +73,7 @@ nav {
     content: "";
     width: 0%;
     height: 2px;
-    background: red;
+    background:red;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -98,7 +99,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: #210ce6;
+    color:blue;
     font-family: "Shadows into Light", sans-serif;
 }
 
