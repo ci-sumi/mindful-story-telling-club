@@ -597,7 +597,7 @@ input[type="message"] {
     }
 
     main {
-        background-image: url("assets/images/thanku.jpg");
+        background-image: url(".assets/images/thanku.webp");
         background-size: contain;
     }
 
@@ -630,7 +630,7 @@ input[type="message"] {
         }
 
         main {
-            background-image: url("assets/images/thanku.jpg");
+            background-image: url(".assets/images/thanku.webp");
             background-size: contain;
         }
       
@@ -663,7 +663,7 @@ input[type="message"] {
         }
 
         main {
-            background-image: url("assets/images/thanku.jpg");
+            background-image: url(".assets/images/thanku.webp");
             background-size: contain;
         }
     
