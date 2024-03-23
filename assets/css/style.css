@@ -711,6 +711,48 @@ input[type="message"] {
             }
                 
             } 
+
+    
+            .header {
+                background-image: url(../images/story.webp);
+                background-size: cover;
+                position: relative;
+                background-repeat: no-repeat;
+                /* width: 100%; */
+                /* Other styles as needed */
+            }
+            
+            /* Media query for smaller screens */
+            @media (max-width: 768px) {
+                .header {
+                    min-height: 225px; /* Adjust as needed */
+                }
+            }
+            
+            /* Media query for medium-sized screens */
+            @media (min-width: 769px) and (max-width: 1024px) {
+                .header {
+                    min-height: 325px; /* Adjust as needed */
+                }
+            }
+            
+            /* Media query for larger screens */
+            @media (min-width: 1025px) {
+                .header {
+                    min-height: 425px; /* Adjust as needed */
+                }
+            }
+            @media (min-width: 4111px) {
+                .header {
+                    min-height: 1300px; /* Adjust as needed */
+                }
+                p{
+                    text-align: center;
+    
+    
+                }
+                    
+                } 
         
         
         
