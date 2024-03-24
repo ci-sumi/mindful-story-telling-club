@@ -66,7 +66,7 @@ Mindfulness techniques are integrated into club activities to promote relaxation
   4. I want to engage in discussions and socialize with other members through the club's online forum or community platform so that I can connect with like-minded individuals and foster relationships.
   5. The Home page has General information about the club.
   6. The mindful page has upcoming event list which user can keep track of it.
-  7.The navigation bar is a common feature across all pages of the Mindful Storytelling Club website, providing easy access to each section of the site.
+  7. The navigation bar is a common feature across all pages of the Mindful Storytelling Club website, providing easy access to each section of the site.
 
   #### As a visitor Goals
   1. I want to learn about the club's mission, values, and featured storytellers so that I can understand what the club offers and decide if it aligns with my interests.
@@ -75,7 +75,70 @@ Mindfulness techniques are integrated into club activities to promote relaxation
   * The images related to content were sourced from Wikipedia [Wikipedia](https://www.wikipedia.org/), while other images were obtained from Pexels and Unsplash.[Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
   * color palate from [coolors] https://coolors.co/f5fbef-92ad94-748b75-503d42-84c318;
 
-  4.As visitor if you are interested,you can Contact Us section that leads to the last Contact Page with a form to contact the club for mindfulness.
+  4. As visitor if you are interested,you can Contact Us section that leads to the last Contact Page with a form to contact the club for mindfulness.
+#### Goal of someone experiencing stress, whether personal or professional
+ 1. Seeking Relaxation and Stress Relief: They may be looking for stories that can help them relax and unwind, providing a mental escape from their stressors. Engaging in mindfulness practices through storytelling could offer them a moment of peace and tranquility.
+ 2. Finding Inspiration and Hope: Individuals experiencing stress may seek stories that inspire them or offer hope during difficult times. They might be looking for narratives of resilience, overcoming challenges, or personal growth that resonate with their own struggles.
+ 3. Seeking Connection and Support: Sometimes, people turn to storytelling communities for a sense of belonging and understanding. They may want to connect with others who are experiencing similar stressors or find comfort in knowing they're not alone in their struggles.
+ ### Development Planes
+ Developing a website for a mindful storytelling club aimed at helping individuals dealing with stress requires careful planning and consideration.
+#### Strategy
+Target Audience Segmentation:
+Current Members:
+
+Exclusive access to storytelling resources, events, and workshops.
+Regular updates on upcoming storytelling sessions and club activities.
+Potential Members:
+
+Compelling storytelling samples and club benefits to encourage membership.
+Clear CTAs for joining the club or attending introductory events.
+Individuals Interested in Mindfulness and Storytelling:
+
+Resources on incorporating mindfulness practices into storytelling.
+Inspirational stories highlighting the power of mindfulness in daily life.
+ 
+ **Demographic and Psychographic Considerations:**
+
+All Ages:
+
+Diverse range of storytelling content suitable for all age groups.
+Opportunities for intergenerational storytelling exchanges.
+Professionals Seeking Creative Outlets:
+
+Workshops and networking events tailored for professionals interested in storytelling as a creative outlet.
+Integration with professional development themes such as communication and empathy.
+People Seeking Emotional Connection and Self-Reflection:
+
+Story prompts and guided reflection exercises for personal growth.
+Platform for sharing personal stories and experiences in a supportive environment.
+
+#### Scope
+The Mindful Storytelling Club aims to create an engaging online platform that fosters a community of storytelling enthusiasts, promotes mindfulness practices, and facilitates personal growth through storytelling.
+
+#### Content Strategy:
+  * Identify the types of stories that will be most beneficial for your audience. These could include personal anecdotes, fictional narratives, guided meditations, etc.
+ * Plan a content calendar to ensure a consistent flow of new stories and resources.
+#### Functional Requirements:
+User Functionality:
+
+ * Storytelling Resources:
+
+   * Accessible sections for storytelling inspiration, techniques, and resources.
+   * Contact club for mindful story telling experience.
+
+#### Structure
+The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
+
+<details>
+  <summary>Site Structure</summary>
+
+  ![Site Structure](assets/readme_images/structure.png)
+
+</details>
+
+
+
+   
 
 
 [Back to top⬆️](#mindful-story-telling-club)
