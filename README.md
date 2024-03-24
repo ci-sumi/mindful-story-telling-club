@@ -135,6 +135,15 @@ The information above was then organized in a hierarchical tree structure, a sit
   ![Site Structure](assets/readme_images/structure.png)
 
 </details>
+#### Skeleton
+Wireframes were made as presentation of the site pages while keeping a positive user experience in mind. They were created using an desktop version of Balsamiq.
+<details>
+  <summary>Balsamiq Wireframes</summary>
+
+  <img src="./assets/readme_images/wireframe.png" width="80%" alt="wireframe ">
+
+</details>
+
 
 
 
