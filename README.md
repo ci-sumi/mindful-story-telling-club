@@ -321,11 +321,54 @@ These additions will enhance user experience and facilitate better communication
     <summary>Screenshot</summary>
       
   <img src="./assets/readme_images/testing/lighthouse.png" width="80%">
-    
-    
-  </details>
+   </details>
+
+  ##### Form Testing
+  * The form has been rigorously tested to prevent submission unless all required input fields, including first name,last name,email address and message are properly filled in
+
+  #### Links Testing
+   * Each navigation link underwent thorough manual testing to guarantee seamless redirection to the intended sections of the website.
+   * The social media links located in the footer of every page were manually tested to ensure accurate redirection to the respective pages, with each link configured to open in a new tab for enhanced user experience.
+  #### Browser Testing
+  * The website was thoroughly tested on Google Chrome, Firefox, Microsoft Edge, and Safari browsers, and no issues were encountered during the testing process.
+  #### Device Testing
+  * The website was assessed across a range of devices including desktops, laptops, iPhone 8, iPhone X, and iPad to ensure responsiveness across different screen sizes. It functioned as expected on all devices. Additionally, Chrome developer tools were utilized to verify the responsive design across various devices, confirming structural integrity across different screen sizes.
+
+  * I also employed the following website to evaluate responsiveness:
+  * [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fci-sumi.github.io%2Fmindful-story-telling-club%2F)
+ 
   
 
+#### Friends and Family User Testing
+* I requested feedback from friends and family members to identify any bugs or user experience issues with the site and documentation.
+#### Fixed Bugs
+ * I encountered an issue during validation because I did not use the h1 element in sequential order.
+ * I corrected the responsiveness issue with the hero image.
+
+ #### Known Bugs
+  * In the browser console, there was a "Failed to load resource" error with the file "thanku.webp", indicating that the server responded with a status of 404 (Not Found).
+
+### Technologies Used
+ * HTML
+ * CSS
+
+### Framework-Libraries-Program Used
+* Am I Responsive: Utilized to verify the website's responsiveness across various devices.
+* Responsinator: Employed to confirm the website's responsiveness on different devices.
+* Balsamiq: Utilized for generating wireframe images during the design phase.
+* Chrome Dev Tools: Used throughout development for debugging, testing responsiveness, and optimizing performance.
+* Font Awesome: Integrated for incorporating social media icons in the footer.
+* GitHub: Employed for version control and website hosting.
+* Google Fonts: Utilized to import and customize fonts used on the website.
+webpconverter:Used for converting images to the WebP format, enhancing website performance and load times.
+
+
+
+
+### Resources Used
+* [w3school](https://www.w3schools.com)
+
+ * [KP](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233004-day-1-using-percentages-avoiding-heights/678543-percentages-vs-fixed-widths)
 
 
 
