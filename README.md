@@ -315,6 +315,23 @@ These additions will enhance user experience and facilitate better communication
   * CSS
   * No errors were returned when passing through the official  [W3C CSS Validator Results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fci-sumi.github.io%2Fmindful-story-telling-club&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+  * Accessibility
+  * The website has achieved a perfect Lighthouse accessibility score of 100%. This indicates that the chosen colors and fonts adhere to accessibility standards, ensuring easy readability and accessibility for all users.
+  <details>
+    <summary>Screenshot</summary>
+      
+  <img src="./assets/readme_images/testing/lighthouse.png" width="80%">
+    
+    
+  </details>
+  
+
+
+
+
+
+
+
  
 ## Acknowledgements
   * I extend a special thanks to my mentors, Aleksei Konovalov and Antonio Rodriguez, for their patient and insightful guidance throughout the project.
