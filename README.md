@@ -135,6 +135,7 @@ The information above was then organized in a hierarchical tree structure, a sit
   ![Site Structure](assets/readme_images/structure.png)
 
 </details>
+
 #### Skeleton
 Wireframes were made as presentation of the site pages while keeping a positive user experience in mind. They were created using an desktop version of Balsamiq.
 <details>
@@ -271,8 +272,20 @@ Wireframes were made as presentation of the site pages while keeping a positive 
 
  
 ### Features to Implement
-* **Short Testimonials Page**
-  * This could be a nice interactive page in where the testimonials of users who visited the page would be presented. The users would be invited to share their experiences about the smiling depression, the Institute of Wellbeing and the website content.
+## Future Features
+
+### Contact Details and Location
+
+One of the upcoming features planned for implementation is the addition of contact details and the location of the club on each page. This will provide users with easy access to contact information and help them locate the club's physical address.
+
+#### Implementation Plan:
+
+- **Contact Details:** Include a section in the header or footer of each page displaying essential contact information such as email, phone number.
+
+- **Location Information:** Integrate a map widget or provide textual information about the club's location, including address details and directions.
+
+These additions will enhance user experience and facilitate better communication between the club and its members or visitors.
+
 
 ## Deployment
   * Navigate to the Settings tab in the GitHub repository.
