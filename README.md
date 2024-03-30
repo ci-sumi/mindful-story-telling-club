@@ -293,6 +293,15 @@ Wireframes were made as presentation of the site pages while keeping a positive 
   * Add custom 404 page
   * I acknowledge that some of the commit messages may not meet the desired standards in terms of clarity and quality. I am committed to improving the quality of my commit messages in the future.
   * Fully functional contact form.
+
+
+## Testing
+  * HTML
+  * No errors were returned when passing through the official  [W3C Markup Validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-sumi.github.io%2Fmindful-story-telling-club%2Findex.html)
+
+  * CSS
+  * No errors were returned when passing through the official  [W3C CSS Validator Results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fci-sumi.github.io%2Fmindful-story-telling-club&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
  
 ## Acknowledgements
   * I extend a special thanks to my mentors, Aleksei Konovalov and Antonio Rodriguez, for their patient and insightful guidance throughout the project.
