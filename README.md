@@ -370,7 +370,19 @@ webpconverter:Used for converting images to the WebP format, enhancing website p
 
  * [KP](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233004-day-1-using-percentages-avoiding-heights/678543-percentages-vs-fixed-widths)
 
+ * [codepen](https://codepen.io/)
 
+ ## Credits 
+### Content 
+[thestorystudio](https://www.thestorystudio.org/)
+
+[storydistrict](https://www.storydistrict.org/)
+
+[themoth](https://themoth.org/)
+
+[risk](https://www.risk-show.com/live/)
+
+[backfencepdx] (https://www.backfencepdx.com/)
 
 
 
