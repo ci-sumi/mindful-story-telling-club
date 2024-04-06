@@ -73,8 +73,6 @@ Mindfulness techniques are integrated into club activities to promote relaxation
   1. I want to learn about the club's mission, values, and featured storytellers so that I can understand what the club offers and decide if it aligns with my interests.
   2. I expect to find a clear and user-friendly navigation system that guides me seamlessly through the different sections of the site. 
   3. When visiting the Mindful Storytelling Club website for the first time, I expect to be greeted by visually appealing and relevant imagery that enhances my overall browsing experience.
-  * The images related to content were sourced from Wikipedia [Wikipedia](https://www.wikipedia.org/), while other images were obtained from Pexels and Unsplash.[Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
-  * color palate from [coolors] https://coolors.co/f5fbef-92ad94-748b75-503d42-84c318;
 
   4. As visitor if you are interested,you can Contact Us section that leads to the last Contact Page with a form to contact the club for mindfulness.
 #### Goal of someone experiencing stress, whether personal or professional
@@ -221,6 +219,7 @@ The Shadows into Light font is the main font used throughout the whole website. 
     <summary>Screenshot</summary>
 
     <img src="./assets/readme_images/features/contact.png" width="300px">
+
     <img src="./assets/readme_images/features/contactresponse.png" width="300px">
 
   </summary>
@@ -258,7 +257,7 @@ The Shadows into Light font is the main font used throughout the whole website. 
   <details>
     <summary>Screenshot</summary>
       
-    <img src="./assets/readme_images/features/storytellers.png" width="80%">
+  <img src="./assets/readme_images/features/storytellers.png" width="80%">
   </details>
 
 
