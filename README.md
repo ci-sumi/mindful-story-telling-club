@@ -16,20 +16,21 @@
     3.2 [Features to Implement](#features-to-implement)
 4. [Technologies Used](#technologies-used)
     4.1 [Main Languages Used](#main-languages-used)
-    4.2 [Frameworks, Libraries & Programs Used] (#frameworks,-libraries-&-programs-used)
+    4.2 [Frameworks, Libraries & Programs Used](#frameworks,-libraries-&-programs-used)
 5. [Deployment](#deployment)
 6. [Issues and Bugs](#issues-and-bugs)
 7. [Testing](#testing)
-   7.1 [User Stories Testing](#user-stories-testing)
-   7.2 [Manual Testing](#manual-testing)
-   7.3 [Validator Testing](#validator-testing)
-   7.4 [Lighthouse Testing](#lighthouse-testing)
-   7.5 [Browser Validation](#browser-validation)
-   7.6 [User Testing](#user-testing)
+   7.1 [Validator Testing](#validator-testing)
+   7.2 [Lighthouse Testing](#lighthouse-testing)
+   7.3 [Form Testing](#form-testing)
+   7.4 [Links Testing](#links-testing)
+   7.5 [Browser Testing](#browser-testing)
+   7.6 [Device Testing](#device-testing)
+   7.7 [User Testing](#user-testing)
 8. [Credits](#credits)
-9. 8.1 [Content](#content)
-   8.2 [Code Features](#code-features)
-   8.3 [Media](#media)
+   8.1 [Content](#content)
+   8.2 [media](#media)
+   8.3 [Resources Used](#resources-used)
 10. [Acknowledgements](#acknowledgements)
 
  ## Site Info
@@ -146,7 +147,12 @@ Wireframes were made as presentation of the site pages while keeping a positive 
 </details>
 
 
+### Design
+#### Colours
 
+The colour scheme of the website is white and green and blue with varying shades of green used to tie in with the website.
+#### Fonts
+The Shadows into Light font is the main font used throughout the whole website. This font was imported via Google Fonts. I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
    
 
@@ -287,6 +293,22 @@ One of the upcoming features planned for implementation is the addition of conta
 These additions will enhance user experience and facilitate better communication between the club and its members or visitors.
 
 
+
+### Technologies Used
+#### Main Languages Used
+ * HTML
+ * CSS
+#### Frameworks, Libraries & Programs Used
+### Framework-Libraries-Program Used
+* Am I Responsive: Utilized to verify the website's responsiveness across various devices.
+* Responsinator: Employed to confirm the website's responsiveness on different devices.
+* Balsamiq: Utilized for generating wireframe images during the design phase.
+* Chrome Dev Tools: Used throughout development for debugging, testing responsiveness, and optimizing performance.
+* Font Awesome: Integrated for incorporating social media icons in the footer.
+* GitHub: Employed for version control and website hosting.
+* Google Fonts: Utilized to import and customize fonts used on the website.
+webpconverter:Used for converting images to the WebP format, enhancing website performance and load times.
+
 ## Deployment
   * Navigate to the Settings tab in the GitHub repository.
   * From the left side menu, select **Pages**.
@@ -309,12 +331,13 @@ These additions will enhance user experience and facilitate better communication
 
 
 ## Testing
+#### Validator Testing
   * HTML
   * No errors were returned when passing through the official  [W3C Markup Validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-sumi.github.io%2Fmindful-story-telling-club%2Findex.html)
 
   * CSS
   * No errors were returned when passing through the official  [W3C CSS Validator Results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fci-sumi.github.io%2Fmindful-story-telling-club&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
+#### Lighthouse Testing
   * Accessibility
   * The website has achieved a perfect Lighthouse accessibility score of 100%. This indicates that the chosen colors and fonts adhere to accessibility standards, ensuring easy readability and accessibility for all users.
   <details>
@@ -323,7 +346,7 @@ These additions will enhance user experience and facilitate better communication
   <img src="./assets/readme_images/testing/lighthouse.png" width="80%">
    </details>
 
-  ##### Form Testing
+  #### Form Testing
   * The form has been rigorously tested to prevent submission unless all required input fields, including first name,last name,email address and message are properly filled in
 
   #### Links Testing
@@ -339,38 +362,15 @@ These additions will enhance user experience and facilitate better communication
  
   
 
-#### Friends and Family User Testing
+#### User Testing
 * I requested feedback from friends and family members to identify any bugs or user experience issues with the site and documentation.
+## Issues and Bugs
 #### Fixed Bugs
  * I encountered an issue during validation because I did not use the h1 element in sequential order.
  * I corrected the responsiveness issue with the hero image.
 
  #### Known Bugs
   * In the browser console, there was a "Failed to load resource" error with the file "thanku.webp", indicating that the server responded with a status of 404 (Not Found).
-
-### Technologies Used
- * HTML
- * CSS
-
-### Framework-Libraries-Program Used
-* Am I Responsive: Utilized to verify the website's responsiveness across various devices.
-* Responsinator: Employed to confirm the website's responsiveness on different devices.
-* Balsamiq: Utilized for generating wireframe images during the design phase.
-* Chrome Dev Tools: Used throughout development for debugging, testing responsiveness, and optimizing performance.
-* Font Awesome: Integrated for incorporating social media icons in the footer.
-* GitHub: Employed for version control and website hosting.
-* Google Fonts: Utilized to import and customize fonts used on the website.
-webpconverter:Used for converting images to the WebP format, enhancing website performance and load times.
-
-
-
-
-### Resources Used
-* [w3school](https://www.w3schools.com)
-
- * [KP](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233004-day-1-using-percentages-avoiding-heights/678543-percentages-vs-fixed-widths)
-
- * [codepen](https://codepen.io/)
 
  ## Credits 
 ### Content 
@@ -384,8 +384,17 @@ webpconverter:Used for converting images to the WebP format, enhancing website p
 
 [backfencepdx](https://www.backfencepdx.com/)
 
+### Media
+All images and videos were sourced from the below websites with thanks to the below amazing photographers/videographers
+ (https://mindfulness-of-nature.com/my-story-our-world/)
 
 
+### Resources Used
+* [w3school](https://www.w3schools.com)
+
+ * [KP](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233004-day-1-using-percentages-avoiding-heights/678543-percentages-vs-fixed-widths)
+
+ * [codepen](https://codepen.io/)
 
  
 ## Acknowledgements
