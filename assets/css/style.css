@@ -6,6 +6,7 @@
     border: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 /*  Update header styles */
@@ -57,17 +58,18 @@ nav {
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 12px; 
     position: relative;
 }
 
 /*  styles for anchor elemnts */
 .nav-links ul li a {
-    color:green;
+    color:black;
     text-decoration: none;
-    font-size: 20px;
-    padding: 0px;
-    background-color:black;
+    font-size: 22px;
+    font-weight: bold;
+    /* padding: 0px; */
+    background-color:silver; 
     border-radius: 5px;
 }
 
@@ -136,7 +138,7 @@ p {
 /* hover effect to hero button */
 .hero-btn:hover {
     border: none;
-    background: hwb(246 5% 50%);
+    background: silver;
     transition: 1s;
 }
 
